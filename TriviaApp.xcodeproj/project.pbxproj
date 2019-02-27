@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109D8521FB556443703D5803 /* Pods_TriviaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C2A8F8495A71BECDD5C248 /* Pods_TriviaApp.framework */; };
+		50EDCDD22223293C0005FA66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDD12223293C0005FA66 /* AppDelegate.swift */; };
+		50EDCDD42223293C0005FA66 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDD32223293C0005FA66 /* TriviaController.swift */; };
+		50EDCDD72223293C0005FA66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDD52223293C0005FA66 /* Main.storyboard */; };
+		50EDCDD92223293E0005FA66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDD82223293E0005FA66 /* Assets.xcassets */; };
+		50EDCDDC2223293E0005FA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDDA2223293E0005FA66 /* LaunchScreen.storyboard */; };
+		50EDCDE722232CA70005FA66 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDE622232CA70005FA66 /* UIColor.swift */; };
+		50EDCDE922232CAF0005FA66 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDE822232CAF0005FA66 /* UIView.swift */; };
+		50EDCDEB22232FDF0005FA66 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDEA22232FDF0005FA66 /* Colors.swift */; };
+		50EDCDED2223323F0005FA66 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDEC2223323F0005FA66 /* MenuController.swift */; };
+		50EDCDEF222332E40005FA66 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDEE222332E40005FA66 /* UIViewController.swift */; };
+		50EDCDF122237D2B0005FA66 /* QuestionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDF022237D2B0005FA66 /* QuestionAPI.swift */; };
+		50EDCDF422237E320005FA66 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDF322237E320005FA66 /* Question.swift */; };
+		50EDCDF62223857C0005FA66 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCDF52223857C0005FA66 /* APIKeys.swift */; };
+		50EDCE052226F23C0005FA66 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDF82226F23C0005FA66 /* Roboto-Black.ttf */; };
+		50EDCE062226F23C0005FA66 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDF92226F23C0005FA66 /* Roboto-Medium.ttf */; };
+		50EDCE072226F23C0005FA66 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFA2226F23C0005FA66 /* Roboto-Thin.ttf */; };
+		50EDCE082226F23C0005FA66 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFB2226F23C0005FA66 /* Roboto-Light.ttf */; };
+		50EDCE092226F23C0005FA66 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFC2226F23C0005FA66 /* Roboto-Regular.ttf */; };
+		50EDCE0A2226F23C0005FA66 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFD2226F23C0005FA66 /* Roboto-BlackItalic.ttf */; };
+		50EDCE0B2226F23C0005FA66 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFE2226F23C0005FA66 /* Roboto-BoldItalic.ttf */; };
+		50EDCE0C2226F23C0005FA66 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCDFF2226F23C0005FA66 /* Roboto-Bold.ttf */; };
+		50EDCE0D2226F23C0005FA66 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCE002226F23C0005FA66 /* Roboto-MediumItalic.ttf */; };
+		50EDCE0E2226F23C0005FA66 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCE012226F23C0005FA66 /* Roboto-LightItalic.ttf */; };
+		50EDCE0F2226F23C0005FA66 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCE022226F23C0005FA66 /* Roboto-Italic.ttf */; };
+		50EDCE102226F23C0005FA66 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCE032226F23C0005FA66 /* Roboto-ThinItalic.ttf */; };
+		50EDCE112226F23C0005FA66 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50EDCE042226F23C0005FA66 /* LICENSE.txt */; };
+		50EDCE132226F24D0005FA66 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCE122226F24D0005FA66 /* UIFont.swift */; };
+		50EDCE162226F5E50005FA66 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCE152226F5E50005FA66 /* MenuButton.swift */; };
+		50EDCE18222703400005FA66 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCE17222703400005FA66 /* AnswerButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47C2A8F8495A71BECDD5C248 /* Pods_TriviaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriviaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8D6E9966A587499C02ACBE /* Pods-TriviaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		50EDCDCE2223293C0005FA66 /* TriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EDCDD12223293C0005FA66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50EDCDD32223293C0005FA66 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
+		50EDCDD62223293C0005FA66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50EDCDD82223293E0005FA66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EDCDDB2223293E0005FA66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50EDCDDD2223293E0005FA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EDCDE622232CA70005FA66 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		50EDCDE822232CAF0005FA66 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		50EDCDEA22232FDF0005FA66 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		50EDCDEC2223323F0005FA66 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		50EDCDEE222332E40005FA66 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		50EDCDF022237D2B0005FA66 /* QuestionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAPI.swift; sourceTree = "<group>"; };
+		50EDCDF322237E320005FA66 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		50EDCDF52223857C0005FA66 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		50EDCDF82226F23C0005FA66 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		50EDCDF92226F23C0005FA66 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		50EDCDFA2226F23C0005FA66 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		50EDCDFB2226F23C0005FA66 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		50EDCDFC2226F23C0005FA66 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		50EDCDFD2226F23C0005FA66 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		50EDCDFE2226F23C0005FA66 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		50EDCDFF2226F23C0005FA66 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		50EDCE002226F23C0005FA66 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		50EDCE012226F23C0005FA66 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		50EDCE022226F23C0005FA66 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		50EDCE032226F23C0005FA66 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		50EDCE042226F23C0005FA66 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		50EDCE122226F24D0005FA66 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		50EDCE152226F5E50005FA66 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		50EDCE17222703400005FA66 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		C28E8AD485E5D6D93621B973 /* Pods-TriviaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EDCDCB2223293C0005FA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109D8521FB556443703D5803 /* Pods_TriviaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD731730D81D2C27313E0A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D6E9966A587499C02ACBE /* Pods-TriviaApp.debug.xcconfig */,
+				C28E8AD485E5D6D93621B973 /* Pods-TriviaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50EDCDC52223293C0005FA66 = {
+			isa = PBXGroup;
+			children = (
+				50EDCDD02223293C0005FA66 /* TriviaApp */,
+				50EDCDCF2223293C0005FA66 /* Products */,
+				2FD731730D81D2C27313E0A4 /* Pods */,
+				6F57E623A10927F81A2D0F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50EDCDCF2223293C0005FA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCDCE2223293C0005FA66 /* TriviaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EDCDD02223293C0005FA66 /* TriviaApp */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCE142226F5DB0005FA66 /* View */,
+				50EDCDF72226F22D0005FA66 /* Fonts */,
+				50EDCDF222237D310005FA66 /* Services */,
+				50EDCDE522232C950005FA66 /* Extensions */,
+				50EDCDE422232A960005FA66 /* Model */,
+				50EDCDE322232A8C0005FA66 /* Controller */,
+				50EDCDD12223293C0005FA66 /* AppDelegate.swift */,
+				50EDCDD52223293C0005FA66 /* Main.storyboard */,
+				50EDCDD82223293E0005FA66 /* Assets.xcassets */,
+				50EDCDDA2223293E0005FA66 /* LaunchScreen.storyboard */,
+				50EDCDDD2223293E0005FA66 /* Info.plist */,
+			);
+			path = TriviaApp;
+			sourceTree = "<group>";
+		};
+		50EDCDE322232A8C0005FA66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCDD32223293C0005FA66 /* TriviaController.swift */,
+				50EDCDEC2223323F0005FA66 /* MenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50EDCDE422232A960005FA66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCDEA22232FDF0005FA66 /* Colors.swift */,
+				50EDCDF322237E320005FA66 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50EDCDE522232C950005FA66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCDE622232CA70005FA66 /* UIColor.swift */,
+				50EDCDE822232CAF0005FA66 /* UIView.swift */,
+				50EDCDEE222332E40005FA66 /* UIViewController.swift */,
+				50EDCE122226F24D0005FA66 /* UIFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50EDCDF222237D310005FA66 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCDF022237D2B0005FA66 /* QuestionAPI.swift */,
+				50EDCDF52223857C0005FA66 /* APIKeys.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		50EDCDF72226F22D0005FA66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCE042226F23C0005FA66 /* LICENSE.txt */,
+				50EDCDF82226F23C0005FA66 /* Roboto-Black.ttf */,
+				50EDCDFD2226F23C0005FA66 /* Roboto-BlackItalic.ttf */,
+				50EDCDFF2226F23C0005FA66 /* Roboto-Bold.ttf */,
+				50EDCDFE2226F23C0005FA66 /* Roboto-BoldItalic.ttf */,
+				50EDCE022226F23C0005FA66 /* Roboto-Italic.ttf */,
+				50EDCDFB2226F23C0005FA66 /* Roboto-Light.ttf */,
+				50EDCE012226F23C0005FA66 /* Roboto-LightItalic.ttf */,
+				50EDCDF92226F23C0005FA66 /* Roboto-Medium.ttf */,
+				50EDCE002226F23C0005FA66 /* Roboto-MediumItalic.ttf */,
+				50EDCDFC2226F23C0005FA66 /* Roboto-Regular.ttf */,
+				50EDCDFA2226F23C0005FA66 /* Roboto-Thin.ttf */,
+				50EDCE032226F23C0005FA66 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		50EDCE142226F5DB0005FA66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCE152226F5E50005FA66 /* MenuButton.swift */,
+				50EDCE17222703400005FA66 /* AnswerButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F57E623A10927F81A2D0F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C2A8F8495A71BECDD5C248 /* Pods_TriviaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EDCDCD2223293C0005FA66 /* TriviaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EDCDE02223293E0005FA66 /* Build configuration list for PBXNativeTarget "TriviaApp" */;
+			buildPhases = (
+				2FC0C5AE73D1BC4146FD7E0B /* [CP] Check Pods Manifest.lock */,
+				50EDCDCA2223293C0005FA66 /* Sources */,
+				50EDCDCB2223293C0005FA66 /* Frameworks */,
+				50EDCDCC2223293C0005FA66 /* Resources */,
+				E86B458DCB35002060B27D95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaApp;
+			productName = TriviaApp;
+			productReference = 50EDCDCE2223293C0005FA66 /* TriviaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EDCDC62223293C0005FA66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IdoPesok;
+				TargetAttributes = {
+					50EDCDCD2223293C0005FA66 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 50EDCDC92223293C0005FA66 /* Build configuration list for PBXProject "TriviaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50EDCDC52223293C0005FA66;
+			productRefGroup = 50EDCDCF2223293C0005FA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EDCDCD2223293C0005FA66 /* TriviaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EDCDCC2223293C0005FA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EDCE102226F23C0005FA66 /* Roboto-ThinItalic.ttf in Resources */,
+				50EDCE062226F23C0005FA66 /* Roboto-Medium.ttf in Resources */,
+				50EDCDDC2223293E0005FA66 /* LaunchScreen.storyboard in Resources */,
+				50EDCE092226F23C0005FA66 /* Roboto-Regular.ttf in Resources */,
+				50EDCE072226F23C0005FA66 /* Roboto-Thin.ttf in Resources */,
+				50EDCE0E2226F23C0005FA66 /* Roboto-LightItalic.ttf in Resources */,
+				50EDCE0D2226F23C0005FA66 /* Roboto-MediumItalic.ttf in Resources */,
+				50EDCE0C2226F23C0005FA66 /* Roboto-Bold.ttf in Resources */,
+				50EDCE0A2226F23C0005FA66 /* Roboto-BlackItalic.ttf in Resources */,
+				50EDCDD92223293E0005FA66 /* Assets.xcassets in Resources */,
+				50EDCE082226F23C0005FA66 /* Roboto-Light.ttf in Resources */,
+				50EDCDD72223293C0005FA66 /* Main.storyboard in Resources */,
+				50EDCE112226F23C0005FA66 /* LICENSE.txt in Resources */,
+				50EDCE0F2226F23C0005FA66 /* Roboto-Italic.ttf in Resources */,
+				50EDCE0B2226F23C0005FA66 /* Roboto-BoldItalic.ttf in Resources */,
+				50EDCE052226F23C0005FA66 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC0C5AE73D1BC4146FD7E0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TriviaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86B458DCB35002060B27D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EDCDCA2223293C0005FA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EDCDEF222332E40005FA66 /* UIViewController.swift in Sources */,
+				50EDCDE922232CAF0005FA66 /* UIView.swift in Sources */,
+				50EDCDEB22232FDF0005FA66 /* Colors.swift in Sources */,
+				50EDCE18222703400005FA66 /* AnswerButton.swift in Sources */,
+				50EDCDF422237E320005FA66 /* Question.swift in Sources */,
+				50EDCDD42223293C0005FA66 /* TriviaController.swift in Sources */,
+				50EDCDE722232CA70005FA66 /* UIColor.swift in Sources */,
+				50EDCE132226F24D0005FA66 /* UIFont.swift in Sources */,
+				50EDCDF62223857C0005FA66 /* APIKeys.swift in Sources */,
+				50EDCE162226F5E50005FA66 /* MenuButton.swift in Sources */,
+				50EDCDED2223323F0005FA66 /* MenuController.swift in Sources */,
+				50EDCDF122237D2B0005FA66 /* QuestionAPI.swift in Sources */,
+				50EDCDD22223293C0005FA66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50EDCDD52223293C0005FA66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EDCDD62223293C0005FA66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50EDCDDA2223293E0005FA66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EDCDDB2223293E0005FA66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50EDCDDE2223293E0005FA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50EDCDDF2223293E0005FA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50EDCDE12223293E0005FA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8D6E9966A587499C02ACBE /* Pods-TriviaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HQNU86CB4;
+				INFOPLIST_FILE = TriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pesok.TriviaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50EDCDE22223293E0005FA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28E8AD485E5D6D93621B973 /* Pods-TriviaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HQNU86CB4;
+				INFOPLIST_FILE = TriviaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pesok.TriviaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EDCDC92223293C0005FA66 /* Build configuration list for PBXProject "TriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EDCDDE2223293E0005FA66 /* Debug */,
+				50EDCDDF2223293E0005FA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EDCDE02223293E0005FA66 /* Build configuration list for PBXNativeTarget "TriviaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EDCDE12223293E0005FA66 /* Debug */,
+				50EDCDE22223293E0005FA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50EDCDC62223293C0005FA66 /* Project object */;
+}
